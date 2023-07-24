@@ -36,10 +36,8 @@ console.print(table)
 
 def check_credentials(user):
     global member
-    if user in member:
-        return True
-    else:
-        return False
+    if user in member:return True
+    else:return False
 
 
 @bot.message_handler(commands=['start'])
